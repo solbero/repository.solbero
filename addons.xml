@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="repository.solbero" name="solbero's Kodi add-on repository" provider-name="solbero" version="1.0.0">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0" />
+    </requires>
+    <extension name="solbero's Kodi addon repository" point="xbmc.addon.repository">
+        <info compressed="false">https://raw.githubusercontent.com/solbero/repository.solbero/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/solbero/repository.solbero/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/solbero/repository.solbero/master/</datadir>
+        <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>solbero's Kodi skins and supporting scripts</summary>
+        <description>solbero's Kodi skins and supporting scripts</description>
+        <platform>linux</platform>
+</extension>
+</addon><addon id="script.lutris" name="Lutris" provider-name="Rob Loach" version="1.1.1">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>game executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Lutris</summary>
+        <description lang="en">Open Gaming Platform to install and launch games from Kodi.</description>
+        <disclaimer lang="en">For more information, visit Lutris.net.</disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>http://lutris.net</website>
+        <source>http://github.com/robloach/script.lutris</source>
+        <platform>linux</platform>
+        <language>en</language>
+    </extension>
+</addon></addons>

@@ -16,7 +16,7 @@ Repo for Kodi add-ons
 3. Go to "Settings" → "Add-ons" → "Install from zip file". Navigate to where you placed the file solbero.repository-1.0.0.zip and select it.
 
 ## Authours
-* Lutris Kodi Addon by [RobLoach](https://github.com/RobLoach)
+* [Lutris Kodi Addon](https://github.com/RobLoach/lutris-kodi-addon) by [RobLoach](https://github.com/RobLoach)
 * Repository by [solbero](https://github.com/solbero)
 
 ## Acknowledgments

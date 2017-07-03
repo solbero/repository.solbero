@@ -1,20 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.solbero" name="solbero's Kodi add-on repository" provider-name="solbero" version="1.0.0">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0" />
-    </requires>
-    <extension name="solbero's Kodi addon repository" point="xbmc.addon.repository">
-        <info compressed="false">https://raw.githubusercontent.com/solbero/repository.solbero/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/solbero/repository.solbero/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/solbero/repository.solbero/master/</datadir>
-        <hashes>false</hashes>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>solbero's Kodi skins and supporting scripts</summary>
-        <description>solbero's Kodi skins and supporting scripts</description>
-        <platform>linux</platform>
-</extension>
-</addon><addon id="script.lutris" name="Lutris" provider-name="Rob Loach" version="1.1.1">
+<addons><addon id="script.lutris" name="Lutris" provider-name="Rob Loach" version="1.2.0">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
     </requires>

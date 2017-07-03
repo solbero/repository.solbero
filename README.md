@@ -20,4 +20,4 @@ Repo for Kodi add-ons
 * Repository by [solbero](https://github.com/solbero)
 
 ## Acknowledgments
-* Repository packaged using [create_repository.py](https://github.com/chadparry/kodi-repository.chad.parry.org/blob/master/tools/create_repository.py) by [Chad Parry](https://github.com/chadparry)
+* Repository packaged using [create_repository.py](https://github.com/chadparry/kodi-repository.chad.parry.org/blob/master/tools/create_repository.py) by [chadparry](https://github.com/chadparry)

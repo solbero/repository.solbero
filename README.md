@@ -5,7 +5,7 @@ Repository for Kodi add-ons
 
 |Icon|Name|Version|Updated|
 |---|---|---|---|
-|<img src="https://raw.githubusercontent.com/solbero/repository.solbero/master/script.lutris/icon.png" width="48">|[Lutris Kodi Addon](https://github.com/RobLoach/lutris-kodi-addon)|1.2.0|[2017-06-26](https://raw.githubusercontent.com/solbero/repository.solbero/master/script.lutris/changelog-1.2.0.txt)
+|<img src="https://raw.githubusercontent.com/solbero/repository.solbero/master/script.lutris/icon.png" width="48">|[Lutris Kodi Addon](https://github.com/RobLoach/lutris-kodi-addon)|1.2.1|[2017-08-30](https://raw.githubusercontent.com/solbero/repository.solbero/master/script.lutris/changelog-1.2.1.txt)
 
 ## Installation
 

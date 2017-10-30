@@ -11,7 +11,7 @@ Repository for Kodi add-ons
 
 1. Make sure that "Unknown Sources" is enabled in "Settings" → "System" → "Add-ons"
 
-2. Download [solbero.repository-1.0.0.zip](https://github.com/solbero/repository.solbero/raw/master/repository.solbero/repository.solbero-1.0.0.zip)
+2. Download [solbero.repository-1.0.1.zip](https://github.com/solbero/repository.solbero/raw/master/repository.solbero/repository.solbero-1.0.1.zip)
 
 3. Go to "Settings" → "Add-ons" → "Install from zip file". Navigate to where you placed the file solbero.repository-1.0.0.zip and select “Install”.
 

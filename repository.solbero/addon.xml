@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.solbero" name="solbero's Kodi add-on repository" version="1.0.0" provider-name="solbero">
+<addon id="repository.solbero" name="solbero's Kodi add-on repository" version="1.0.1" provider-name="solbero">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -10,8 +10,8 @@
         <hashes>false</hashes>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>solbero's Kodi skins and supporting scripts</summary>
-        <description>solbero's Kodi skins and supporting scripts</description>
+        <summary>Kodi addons repackaged by solbero</summary>
+        <description>Kodi addons repackaged by solbero</description>
         <platform>linux</platform>
 </extension>
 </addon>

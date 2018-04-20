@@ -9,11 +9,11 @@ Repository for Kodi add-ons
 
 ## Installation
 
-1. Make sure that "Unknown Sources" is enabled in "Settings" → "System" → "Add-ons"
+1. Make sure that Unknown Sources is enabled in Settings → System → Add-ons
 
 2. Download [solbero.repository-1.0.1.zip](https://github.com/solbero/repository.solbero/raw/master/repository.solbero/repository.solbero-1.0.1.zip)
 
-3. Go to "Settings" → "Add-ons" → "Install from zip file". Navigate to where you placed the file solbero.repository-1.0.1.zip and select “Install”.
+3. Go to Settings → Add-ons → Install from zip file. Navigate to where you placed the file solbero.repository-1.0.1.zip and select Install
 
 ## Authours
 * [Lutris Kodi Addon](https://github.com/RobLoach/lutris-kodi-addon) by [RobLoach](https://github.com/RobLoach)

@@ -16,6 +16,33 @@
         <platform>linux</platform>
         <language>en</language>
     </extension>
+</addon><addon id="plugin.game.gamehub" name="GameHub" provider-name="solbero" version="1.0.0">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0" />
+    </requires>
+    <extension library="addon.py" point="xbmc.python.pluginsource">
+        <provides>game</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">A launcher for the GameHub appliation.</summary>
+        <description lang="en_GB">This plugin is a launcher for the GameHub application. GameHub allows you to view, download, install, run and uninstall games from supported sources. Its interface is compatible with gamepads. You need to have GameHub installed on your system to use this addon.</description>
+        <disclaimer lang="en_GB">For more information about GameHub, visit tkashkin.tk/projects/gamehub/.</disclaimer>
+        <license>GPL-2.0</license>
+        <website>https://tkashkin.tk/projects/gamehub/</website>
+        <news lang="en_GB"> Version 1.0.0: September 14th, 2019
+            - Initial commit</news>
+        <source>http://github.com/solbero/script.gamehub</source>
+        <language>en</language>
+        <platform>linux</platform>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.png</fanart>
+            <screenshot>resources/media/screenshot_1.png</screenshot>
+            <screenshot>resources/media/screenshot_2.png</screenshot>
+            <screenshot>resources/media/screenshot_3.png</screenshot>
+            <screenshot>resources/media/screenshot_4.png</screenshot>
+        </assets>
+    </extension>
 </addon><addon id="repository.solbero" name="solbero's Kodi add-on repository" provider-name="solbero" version="1.0.1">
     <requires>
         <import addon="xbmc.addon" version="12.0.0" />

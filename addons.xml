@@ -1,22 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="script.lutris" name="Lutris" provider-name="Rob Loach" version="1.3.1">
+<addons><addon id="script.lutris" name="Lutris" provider-name="Rob Loach" version="1.4.0">
     <requires>
-        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="xbmc.python" version="2.25.0" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>game executable</provides>
+        <provides>game</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Lutris</summary>
-        <description lang="en">Lutris Kodi Addon is a frontent for Lutris in Kodi. You need to have Lutris installed to use this add-on.</description>
-        <disclaimer lang="en">For more information, visit Lutris.net.</disclaimer>
+        <summary lang="en_GB">Lutris</summary>
+        <description lang="en_GB">Lutris Kodi Addon is a frontent for Lutris in Kodi. You need to have Lutris installed to use this add-on.</description>
+        <disclaimer lang="en_GB">For more information, visit Lutris.net.</disclaimer>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <website>http://lutris.net</website>
+        <news lang="en_GB">Version 1.4.0: March 19th, 2020
+            - Complete rewrite of addon code, by @solbero
+            - Add 'Open Lutris' option to addon settings, by @solbero
+            - Remove depricated language files, by @solbero
+            - Update Lutris icon, by @solbero</news>
         <source>http://github.com/robloach/script.lutris</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/screenshot.jpg</screenshot>
+        </assets>
         <platform>linux</platform>
         <language>en</language>
     </extension>
-</addon><addon id="plugin.game.gamehub" name="GameHub" provider-name="solbero" version="1.0.0">
+</addon><addon id="plugin.game.gamehub" name="GameHub" provider-name="solbero" version="1.0.2">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
     </requires>
@@ -29,18 +39,18 @@
         <disclaimer lang="en_GB">For more information about GameHub, visit tkashkin.tk/projects/gamehub/.</disclaimer>
         <license>GPL-2.0</license>
         <website>https://tkashkin.tk/projects/gamehub/</website>
-        <news lang="en_GB"> Version 1.0.0: September 14th, 2019
-            - Initial commit</news>
-        <source>http://github.com/solbero/script.gamehub</source>
+        <news lang="en_GB">Version 1.0.2: March 19th, 2020
+            - Various code fixes</news>
+        <source>https://github.com/solbero/plugin.game.gamehub</source>
         <language>en</language>
         <platform>linux</platform>
         <assets>
-            <icon>resources/media/icon.png</icon>
-            <fanart>resources/media/fanart.png</fanart>
-            <screenshot>resources/media/screenshot_1.png</screenshot>
-            <screenshot>resources/media/screenshot_2.png</screenshot>
-            <screenshot>resources/media/screenshot_3.png</screenshot>
-            <screenshot>resources/media/screenshot_4.png</screenshot>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/screenshot_1.jpg</screenshot>
+            <screenshot>resources/screenshot_2.jpg</screenshot>
+            <screenshot>resources/screenshot_3.jpg</screenshot>
+            <screenshot>resources/screenshot_4.jpg</screenshot>
         </assets>
     </extension>
 </addon><addon id="repository.solbero" name="solbero's Kodi add-on repository" provider-name="solbero" version="1.0.1">

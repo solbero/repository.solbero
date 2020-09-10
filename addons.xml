@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="script.lutris" name="Lutris" provider-name="Rob Loach" version="1.4.0">
+<addons><addon id="script.lutris" name="Lutris" version="1.4.1" provider-name="Rob Loach">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
     </requires>
-    <extension library="default.py" point="xbmc.python.pluginsource">
+    <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>game</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -12,11 +12,9 @@
         <disclaimer lang="en_GB">For more information, visit Lutris.net.</disclaimer>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <website>http://lutris.net</website>
-        <news lang="en_GB">Version 1.4.0: March 19th, 2020
-            - Complete rewrite of addon code, by @solbero
-            - Add 'Open Lutris' option to addon settings, by @solbero
-            - Remove depricated language files, by @solbero
-            - Update Lutris icon, by @solbero</news>
+        <news lang="en_GB">Version 1.4.1: September 10th, 2020
+            - Fixed JSON parsing error, by @Turpster
+            - Fix screenshot not showing, by @sharkwouter</news>
         <source>http://github.com/robloach/script.lutris</source>
         <assets>
             <icon>resources/icon.png</icon>
@@ -26,11 +24,11 @@
         <platform>linux</platform>
         <language>en</language>
     </extension>
-</addon><addon id="plugin.game.gamehub" name="GameHub" provider-name="solbero" version="1.0.2">
+</addon><addon id="plugin.game.gamehub" name="GameHub" version="1.0.2" provider-name="solbero">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
     </requires>
-    <extension library="addon.py" point="xbmc.python.pluginsource">
+    <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>game</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -53,19 +51,4 @@
             <screenshot>resources/screenshot_4.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="repository.solbero" name="solbero's Kodi add-on repository" provider-name="solbero" version="1.0.1">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0" />
-    </requires>
-    <extension name="solbero's Kodi addon repository" point="xbmc.addon.repository">
-        <info compressed="false">https://raw.githubusercontent.com/solbero/repository.solbero/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/solbero/repository.solbero/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/solbero/repository.solbero/master/</datadir>
-        <hashes>false</hashes>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Kodi addons repackaged by solbero</summary>
-        <description>Kodi addons repackaged by solbero</description>
-        <platform>linux</platform>
-</extension>
 </addon></addons>

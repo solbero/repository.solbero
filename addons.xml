@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="script.lutris" name="Lutris" version="1.4.1" provider-name="Rob Loach">
+<addons><addon id="script.lutris" name="Lutris" version="1.4.3" provider-name="Rob Loach">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
     </requires>
@@ -12,9 +12,8 @@
         <disclaimer lang="en_GB">For more information, visit Lutris.net.</disclaimer>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <website>http://lutris.net</website>
-        <news lang="en_GB">Version 1.4.1: September 10th, 2020
-            - Fixed JSON parsing error, by @Turpster
-            - Fix screenshot not showing, by @sharkwouter</news>
+        <news lang="en_GB">Version 1.4.2: September 16th, 2020
+		- Minor code improvements, by @solbero</news>
         <source>http://github.com/robloach/script.lutris</source>
         <assets>
             <icon>resources/icon.png</icon>

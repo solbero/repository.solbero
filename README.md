@@ -1,11 +1,11 @@
 # solbero’s Kodi add-on repository
-Repository for Kodi add-ons
+Repository for Kodi Leia add-ons
 
 ## Contents
 
 |Icon|Name|Version|Updated|
 |---|---|---|---|
-|<img src="https://raw.githubusercontent.com/RobLoach/lutris-kodi-addon/master/resources/icon.png" width="48">|[Lutris Kodi Addon](https://github.com/RobLoach/lutris-kodi-addon)|1.4.1|[2020-09-10](https://raw.githubusercontent.com/solbero/repository.solbero/master/script.lutris/changelog-1.4.1.txt)
+|<img src="https://raw.githubusercontent.com/RobLoach/lutris-kodi-addon/master/resources/icon.png" width="48">|[Lutris Kodi Addon](https://github.com/RobLoach/lutris-kodi-addon)|1.4.3|[2021-02-03](https://raw.githubusercontent.com/solbero/repository.solbero/master/script.lutris/changelog-1.4.3.txt)
 |<img src="https://raw.githubusercontent.com/solbero/plugin.game.gamehub/master/resources/icon.png" width="48">|[GameHub Launcher](https://github.com/solbero/plugin.game.gamehub)|1.0.2|[2020-03-19](https://raw.githubusercontent.com/solbero/repository.solbero/master/plugin.game.gamehub/changelog-1.0.2.txt)
 
 ## Installation

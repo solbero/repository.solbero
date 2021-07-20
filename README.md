@@ -1,5 +1,5 @@
 # solbero’s Kodi add-on repository
-Repository for Kodi Leia add-ons
+Add-on repository for Kodi Leia and blow
 
 ## Contents
 
